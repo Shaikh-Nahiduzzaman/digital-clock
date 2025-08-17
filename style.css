@@ -1,0 +1,23 @@
+body {
+    background: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+    background: #222;
+    padding: 40px 60px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px #0006;
+}
+
+#clock {
+    font-family: 'Segoe UI', 'Consolas', monospace;
+    font-size: 3rem;
+    color: #00ffd0;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
